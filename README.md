@@ -1,1 +1,1 @@
-作为django-admin的现代UI
+作为Django的管理的现代UI的改进。
