@@ -1,0 +1,6 @@
+{% load i18n %}
+{% for spec in cl.filter_default %}
+    {{ spec|safe }}<br><br>
+{% endfor %}
+
+

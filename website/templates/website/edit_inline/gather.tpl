@@ -1,0 +1,31 @@
+{% extends "website/edit_inline/base.tpl" %}
+{% load i18n website_tags crispy_forms_tags %}
+
+{% block box_content_class %}nopadding{% endblock box_content_class %}
+{% block box_content_attrs %}{% endblock box_content_attrs %}
+
+{% block formset_content %}
+
+    <ul class="formset-content list-inline" data-prefix="{{ prefix }}" data-style="stacked">
+      {% for fs in formset.formset %}
+      <li class="formset-row" style="min-width: 230px; margin-bottom: 15px;">
+        {% crispy fs formset.formset.helper %}
+        {% for r_o_f in fs.readonly_fields %}
+            {{ r_o_f.contents|safe }}
+        {% endfor %}
+        {% if formset.formset.can_delete %}
+          <a class="delete-row"><i class="fa fa-times"></i></a>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+{% endblock formset_content %}
+
+{% block formset_empty %}
+  <li class="formset-row" style="min-width: 230px; margin-bottom: 15px;">
+    {% crispy formset.formset.empty_form formset.formset.helper %}
+    {% if formset.formset.can_delete %}
+      <td><a class="delete-row"><i class="fa fa-times"></i></a></td>
+    {% endif %}
+  </li>
+{% endblock formset_empty %}

@@ -1,0 +1,14 @@
+{% load i18n %}
+<div class="dropdown btn-group">
+    <a id="drop-filter" class="dropdown-toggle btn" role="button" data-toggle="dropdown" href="#">
+        <i class="fa fa-filter"></i> {% trans "Filters" %}{% if cl.used_filter_num > 0 %}
+        <span class="badge badge-success">{{ cl.used_filter_num }}</span>{% endif %}
+        <span class="caret"></span></a>
+    <ul id="filter-menu" class="dropdown-menu" role="menu" aria-labelledby="drop-filter">
+        {% if cl.has_query_param %}
+            <li><a href="{{ cl.clean_query_url }}"><i class="fa fa-trash-o"></i> {% trans "Clean Filters" %}</a></li>
+            <li class="divider"></li>
+        {% endif %}
+        {% for spec in cl.filter_specs %}{% if spec not in cl.filter_default %}{{ spec|safe }}{% endif %}{% endfor %}
+    </ul>
+</div>

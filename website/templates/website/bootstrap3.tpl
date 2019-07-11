@@ -1,0 +1,129 @@
+{% extends 'website/base.tpl' %}
+{% load i18n website_tags %}
+
+
+{% block title %}{{ title }} | {{ site_title }}{% endblock %}
+
+{% block body %}
+    <div class="wrapper">
+
+    <!-- Header -->
+    {% if not head_fix %}
+        {% include 'website/includes/head_nav.tpl' %}
+    {% endif %}
+
+    <div id="body-content" class="clearfix row">
+
+        <!-- left side menu -->
+        {% block left_menu %}
+            {% if not head_fix %}
+                <div id="left-side" class="col-sm-1 col-md-2">
+                    {% block navbar %}
+                        {% if nav_menu %}
+                            {% include menu_template %}
+                        {% else %}
+                            <p></p>
+                        {% endif %}
+                    {% endblock %}
+                    {% plugin_block 'left_navbar' %}
+                </div>
+            {% endif %}
+        {% endblock %}
+
+        <div id="content-block" class="
+
+
+                {% block content_block_class %}{% if not head_fix %}col-sm-10 col-md-10{% else %}col-sm-12 col-md-12 main-content{% endif %}{% endblock %}"
+             {% if head_fix %}style="padding-left: 15px"{% endif %}>
+
+            <!-- breadcrumbs -->
+            {% block breadcrumbs %}
+                <ul class="breadcrumb">
+                    {% if breadcrumbs %}
+                        {% for bc in breadcrumbs %}
+                            <li>
+                                {% if forloop.last or not bc.url %}{{ bc.title }}
+                                {% else %}<a href="{{ bc.url }}">{{ bc.title }}</a>{% endif %}
+                            </li>
+                        {% endfor %}
+                    {% else %}
+                        <li><a href="{% url website|website_namespace:'index' %}">{% trans 'Home' %}</a></li>
+                        {% if title %}{{ title }}{% endif %}
+                    {% endif %}
+                </ul>
+            {% endblock %}
+
+            <!-- content nav -->
+            {% block content-nav %}
+                <div class="navbar content-navbar navbar-default navbar-xs" data-toggle="breakpoint"
+                     data-class-xs="navbar content-navbar navbar-inverse navbar-xs"
+                     data-class-sm="navbar content-navbar navbar-default navbar-xs">
+                <div class="navbar-header">
+                    {% plugin_block 'nav_toggles' %}
+                    {% block nav_toggles %}
+                        {% include "website/includes/toggle_back.tpl" %}
+                    {% endblock %}
+
+                </div>
+
+
+                <div class="row navbar-btn">
+
+                    <div class="col-sm-4">
+                        {% plugin_block 'nav_btns' %}
+                        {% block nav_btns %}{% endblock %}
+                        {% block nav_middle %}{% endblock %}
+                    </div>
+
+                    <div class="col-sm-4">
+                        <!-- 过滤器 -->
+                        <div>
+                            {% plugin_block 'nav_menu' %}
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        {% block nav_form %}{% endblock %}
+                        <!-- 搜索框 -->
+                        {% plugin_block 'nav_form' %}
+                    </div>
+
+                </div>
+            {% endblock %}
+
+            <!-- messages -->
+            {% block messages %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="alert alert-dismissable{% if message.tags %} {% if message.tags == 'error' %}alert-danger{% else %}alert-{{ message.tags }}{% endif %}{% endif %}">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endblock messages %}
+
+            <!-- content -->
+            {% block content %}
+                {{ content }}
+            {% endblock %}
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        {% if not head_fix %}
+            {% block footer %}
+                <div id="footer">
+                    <hr/>
+                    <footer class="text-center">
+                        <p>{% block site_footer %}{{ site_footer }}{% endblock %}</p>
+                    </footer>
+                </div>
+            {% endblock %}
+        {% else %}
+            <br/>
+            <br/>
+        {% endif %}
+
+    </div>
+{% endblock body %}

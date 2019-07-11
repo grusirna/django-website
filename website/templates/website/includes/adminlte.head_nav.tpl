@@ -1,0 +1,44 @@
+{% load i18n website_tags %}
+<header class="main-header">
+    <!-- Logo -->
+    <a href="{% url website|website_namespace:'index' %}" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini">{% block branding_mini %}<i class="fa fa-dashboard"></i>{% endblock %}</span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg">{% block branding %}<b>{{ site_title }}</b> {{ site_subtitle }}{% endblock %}</span>
+    </a>
+
+
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+
+        <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav navbar-right">
+                {% plugin_block 'top_navbar' %}
+                {% plugin_block 'top_navmenu' %}
+                {% if user.is_active and user.is_staff %}
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user"></i>
+                            <strong>{% filter force_escape %}
+                                {% firstof user.first_name user.username %}{% endfilter %}</strong> <span
+                                class="caret"></span></a>
+                        <ul id="g-account-menu" class="dropdown-menu" role="menu">
+                            {% plugin_block 'top_account_menu' %}
+                            <li><a href="{% url website|website_namespace:'logout' %}"><i class="fa fa-sign-out"></i><span
+                                    class="hide-sm">{% trans 'Log out' %}</span></a></li>
+
+                        </ul>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+</header>

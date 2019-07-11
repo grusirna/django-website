@@ -1,0 +1,12 @@
+{% load i18n %}
+<div class="btn-group grid-layout" title="切换展示">
+  <a class="dropdown-toggle btn btn-default btn-sm" data-toggle="dropdown" href="#">
+    <i class="{{current_icon}}"></i> <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu pull-right" role="menu" aria-labelledby="dLabel">
+    {% for r in layouts %}
+      <li{% if r.selected %} class="active"{% endif %}>
+      <a href="{{r.url}}"><i class="{{r.icon}}"></i> {{r.name}}</a></li>
+    {% endfor %}
+  </ul>
+</div>

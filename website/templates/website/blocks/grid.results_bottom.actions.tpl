@@ -1,0 +1,35 @@
+{% load i18n %}
+
+{% if not cl.pop %}
+    {% if cl.opts %}
+        {% for name, descr, icon in action_choices %}
+            <a class="btn btn-sm btn-default" onclick="$.do_action('{{name}}');">{{descr}}</a>
+        {% endfor %}
+    {% else %}
+        {% for url, descr, icon in action_choices %}
+            <a href="{{url}}" class="btn btn-primary" onclick="return $.do_form_action(this);"><i class="{{icon}}"></i> {{descr}}</a>
+        {% endfor %}
+    {% endif %}
+{% endif %}
+
+{% if action_choices_more %}
+    <div class="btn-group clearfix">
+        <a class="dropdown-toggle btn btn-sm btn-default" data-toggle="dropdown" href="#">
+            更多
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+            {% for name, descr, icon in action_choices_more %}
+                <li><a onclick="$.do_action('{{name}}');"><i class="{{icon}}"></i> {{descr}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+{% if not cl.pop and  cl.can_select_all %}
+    {% if cl.result_count != cl.result_list|length %}
+        <a class="question btn btn-default" href="javascript:" style="display: none;" title="{% trans "Click here to select the objects across all pages" %}">{% blocktrans with cl.result_count as total_count %}Select all {{ total_count }} {{ module_name }}{% endblocktrans %}</a>
+        <a class="clear btn btn-default" href="javascript:" style="display: none;">{% trans "Clear selection" %}</a>
+    {% endif %}
+{% endif %}
+
+<script type="text/javascript">var _actions_icnt="{{ cl.result_list|length|default:"0" }}";</script>

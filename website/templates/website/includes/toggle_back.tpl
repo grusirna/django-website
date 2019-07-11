@@ -1,0 +1,1 @@
+<button type="button" class="navbar-toggle pull-left" onclick="history.back();"><i class="fa fa-arrow-left"></i></button>

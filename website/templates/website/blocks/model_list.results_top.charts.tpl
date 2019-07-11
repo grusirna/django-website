@@ -1,0 +1,22 @@
+{% extends box_tpl %}
+{% load i18n website_tags %}
+{% block box_title %}
+  <i class="fa fa-bar-chart-o"></i> {% trans "Charts" %}
+{% endblock box_title %}
+
+{% block box_content_class %}nopadding{% endblock box_content_class %}
+{% block box_content %}
+<div class="nav-tabs-custom">
+  <ul class="nav nav-tabs chart-tab">
+    {% for c in charts %}
+    <li{% if forloop.first%} class="active"{% endif %}><a href="#chart-{{c.name}}" data-toggle="tab">{{c.title}}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="tab-content">
+    {% for c in charts %}
+    <div class="chart tab-pane{% if forloop.first%} active{% endif %}" id="chart-{{c.name}}" data-chart-url="{{c.url}}"
+      style="height: 300px; margin:10px 40px; overflow: hidden;"></div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock box_content %}

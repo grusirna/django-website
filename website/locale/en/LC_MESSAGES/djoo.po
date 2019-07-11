@@ -1,0 +1,1312 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-10 18:56+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: .\db\models.py:68
+msgid "Title"
+msgstr ""
+
+#: .\db\models.py:69 .\db\models.py:124
+msgid "user"
+msgstr ""
+
+#: .\db\models.py:70
+msgid "Url Name"
+msgstr ""
+
+#: .\db\models.py:72
+msgid "Query String"
+msgstr ""
+
+#: .\db\models.py:73
+msgid "Is Shared"
+msgstr ""
+
+#: .\db\models.py:86 .\plugins\bookmark.py:90 .\plugins\bookmark.py:220
+msgid "Bookmark"
+msgstr ""
+
+#: .\db\models.py:87
+msgid "Bookmarks"
+msgstr ""
+
+#: .\db\models.py:92 .\db\models.py:110
+msgid "Settings Key"
+msgstr ""
+
+#: .\db\models.py:93 .\db\models.py:111
+msgid "Settings Content"
+msgstr ""
+
+#: .\db\models.py:105
+msgid "User Setting"
+msgstr ""
+
+#: .\db\models.py:125
+msgid "Page"
+msgstr ""
+
+#: .\db\models.py:126 .\xadminlte.py:71 .\xadminlte.py:81
+msgid "Widget Type"
+msgstr ""
+
+#: .\db\models.py:127 .\xadminlte.py:72
+msgid "Widget Params"
+msgstr ""
+
+#: .\db\models.py:154
+msgid "User Widget"
+msgstr ""
+
+#: .\plugins\actions.py:80
+#, python-format
+msgid "%(total_count)s selected"
+msgid_plural "All %(total_count)s selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\plugins\actions.py:83
+#, python-format
+msgid "0 of %(cnt)s selected"
+msgstr ""
+
+#: .\plugins\aggregation.py:14
+msgid "Min"
+msgstr ""
+
+#: .\plugins\aggregation.py:14
+msgid "Max"
+msgstr ""
+
+#: .\plugins\aggregation.py:14
+msgid "Avg"
+msgstr ""
+
+#: .\plugins\aggregation.py:14
+msgid "Sum"
+msgstr ""
+
+#: .\plugins\aggregation.py:14
+msgid "Count"
+msgstr ""
+
+#: .\plugins\auth.py:24
+#, python-format
+msgid "Can add %s"
+msgstr ""
+
+#: .\plugins\auth.py:25
+#, python-format
+msgid "Can change %s"
+msgstr ""
+
+#: .\plugins\auth.py:26
+#, python-format
+msgid "Can edit %s"
+msgstr ""
+
+#: .\plugins\auth.py:27
+#, python-format
+msgid "Can delete %s"
+msgstr ""
+
+#: .\plugins\auth.py:28
+#, python-format
+msgid "Can view %s"
+msgstr ""
+
+#: .\plugins\auth.py:122
+msgid "Personal info"
+msgstr ""
+
+#: .\plugins\auth.py:126
+msgid "Permissions"
+msgstr ""
+
+#: .\plugins\auth.py:129
+msgid "Important dates"
+msgstr ""
+
+#: .\plugins\auth.py:134
+msgid "Status"
+msgstr ""
+
+#: .\plugins\auth.py:146
+msgid "Permission Name"
+msgstr ""
+
+#: .\plugins\auth.py:237
+#, python-format
+msgid "Change password: %s"
+msgstr ""
+
+#: .\plugins\auth.py:262 .\plugins\auth.py:297
+msgid "Password changed successfully."
+msgstr ""
+
+#: .\plugins\auth.py:284
+#: .\templates\xadminlte\auth\user\change_password.html:11
+#: .\templates\xadminlte\auth\user\change_password.html:22
+#: .\templates\xadminlte\auth\user\change_password.html:55
+msgid "Change password"
+msgstr ""
+
+#: .\plugins\batch.py:45
+msgid "Change this field"
+msgstr ""
+
+#: .\plugins\batch.py:66
+#, python-format
+msgid "Batch Change selected %(verbose_name_plural)s"
+msgstr ""
+
+#: .\plugins\batch.py:89
+#, python-format
+msgid "Successfully change %(count)d %(items)s."
+msgstr ""
+
+#: .\plugins\batch.py:139
+#, python-format
+msgid "Batch change %s"
+msgstr ""
+
+#: .\plugins\bookmark.py:213
+msgid "bookmark"
+msgstr ""
+
+#: .\plugins\bookmark.py:216
+msgid "Bookmark Widget, can show user's bookmark list data in widget."
+msgstr ""
+
+#: .\plugins\chart.py:70
+msgid "Show models simple chart."
+msgstr ""
+
+#: .\plugins\chart.py:96
+#, python-format
+msgid "%s Charts"
+msgstr ""
+
+#: .\plugins\details.py:79
+#, python-format
+msgid "Details of %s"
+msgstr ""
+
+#: .\plugins\editable.py:74
+#, python-format
+msgid "Enter %s"
+msgstr ""
+
+#: .\plugins\editable.py:98 .\views\dashboard.py:208
+#: .\views\general\delete.py:40 .\views\general\detail.py:172
+#: .\views\general\edit.py:672
+#, python-format
+msgid "%(name)s object with primary key %(key)r does not exist."
+msgstr ""
+
+#: .\plugins\export.py:110 .\plugins\export.py:150
+msgid "Sheet"
+msgstr ""
+
+#: .\plugins\filters.py:150
+#, python-format
+msgid "<b>Filtering error:</b> %s"
+msgstr ""
+
+#: .\plugins\images.py:36
+msgid "Previous"
+msgstr ""
+
+#: .\plugins\images.py:36
+msgid "Next"
+msgstr ""
+
+#: .\plugins\images.py:36
+msgid "Slideshow"
+msgstr ""
+
+#: .\plugins\images.py:36
+msgid "Download"
+msgstr ""
+
+#: .\plugins\layout.py:15
+msgid "Table"
+msgstr ""
+
+#: .\plugins\layout.py:21
+msgid "Thumbnails"
+msgstr ""
+
+#: .\plugins\passwords.py:63
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: .\plugins\quickform.py:84
+#, python-format
+msgid "Create New %s"
+msgstr ""
+
+#: .\plugins\relate.py:136
+msgid "Related Objects"
+msgstr ""
+
+#: .\plugins\relate.py:329 .\templates\xadminlte\500.html:7
+#: .\templates\xadminlte\auth\user\change_password.html:10
+#: .\templates\xadminlte\auth\user\change_password.html:15
+#: .\templates\xadminlte\base_site.html:46
+#: .\templates\xadminlte\base_site_ext.html:52
+#: .\templates\xadminlte\views\app_index.html:9
+#: .\templates\xadminlte\views\batch_change_form.html:9
+#: .\templates\xadminlte\views\invalid_setup.html:7
+#: .\templates\xadminlte\views\model_dashboard.html:7
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:8
+#: .\templates\xadminlte\views\model_form_action.html:9
+#: .\templates\xadminlte\views\model_history.html:8
+#: .\templates\xadminlte\views\recover_form.html:8
+#: .\templates\xadminlte\views\recover_list.html:8
+#: .\templates\xadminlte\views\revision_diff.html:8
+#: .\templates\xadminlte\views\revision_form.html:8
+#: .\views\general\__init__.py:546
+msgid "Home"
+msgstr ""
+
+#: .\plugins\themes.py:48
+msgid "Default"
+msgstr ""
+
+#: .\plugins\themes.py:49
+msgid "Default bootstrap theme"
+msgstr ""
+
+#: .\plugins\themes.py:50
+msgid "Bootstrap2"
+msgstr ""
+
+#: .\plugins\themes.py:50
+msgid "Bootstrap 2.x theme"
+msgstr ""
+
+#: .\plugins\topnav.py:37 .\widgets\__init__.py:421 .\widgets\__init__.py:813
+#, python-format
+msgid "Search %s"
+msgstr ""
+
+#: .\plugins\topnav.py:63 .\views\general\edit.py:562
+#: .\views\general\edit.py:571 .\widgets\dashwidget.py:403
+#, python-format
+msgid "Add %s"
+msgstr ""
+
+#: .\plugins\xversion.py:131
+msgid "Initial version."
+msgstr ""
+
+#: .\plugins\xversion.py:133
+msgid "Change version."
+msgstr ""
+
+#: .\plugins\xversion.py:135
+msgid "Revert version."
+msgstr ""
+
+#: .\plugins\xversion.py:137
+msgid "Rercover version."
+msgstr ""
+
+#: .\plugins\xversion.py:139
+#, python-format
+msgid "Deleted %(verbose_name)s."
+msgstr ""
+
+#: .\plugins\xversion.py:167 .\templates\xadminlte\views\recover_form.html:26
+msgid "Recover"
+msgstr ""
+
+#: .\plugins\xversion.py:183 .\templates\xadminlte\views\model_history.html:11
+#: .\templates\xadminlte\views\revision_diff.html:11
+#: .\templates\xadminlte\views\revision_form.html:15
+msgid "History"
+msgstr ""
+
+#: .\plugins\xversion.py:226 .\templates\xadminlte\views\recover_form.html:14
+#: .\templates\xadminlte\views\recover_list.html:10
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: .\plugins\xversion.py:264
+#, python-format
+msgid "Change history: %s"
+msgstr ""
+
+#: .\plugins\xversion.py:314
+msgid "Must select two versions."
+msgstr ""
+
+#: .\plugins\xversion.py:322
+msgid "Please select two different versions."
+msgstr ""
+
+#: .\plugins\xversion.py:409 .\plugins\xversion.py:517
+#, python-format
+msgid "Current: %s"
+msgstr ""
+
+#: .\plugins\xversion.py:441
+#, python-format
+msgid "Revert %s"
+msgstr ""
+
+#: .\plugins\xversion.py:457
+#, python-format
+msgid ""
+"The %(model)s \"%(name)s\" was reverted successfully. You may edit it again "
+"below."
+msgstr ""
+
+#: .\plugins\xversion.py:478
+#, python-format
+msgid "Recover %s"
+msgstr ""
+
+#: .\plugins\xversion.py:494
+#, python-format
+msgid ""
+"The %(model)s \"%(name)s\" was recovered successfully. You may edit it again "
+"below."
+msgstr ""
+
+#: .\templates\xadminlte\404.html:4 .\templates\xadminlte\404.html:8
+msgid "Page not found"
+msgstr ""
+
+#: .\templates\xadminlte\404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: .\templates\xadminlte\500.html:8
+msgid "Server error"
+msgstr ""
+
+#: .\templates\xadminlte\500.html:12
+msgid "Server error (500)"
+msgstr ""
+
+#: .\templates\xadminlte\500.html:15
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: .\templates\xadminlte\500.html:16
+msgid ""
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: .\templates\xadminlte\auth\login.html:41
+msgid "Please Login"
+msgstr ""
+
+#: .\templates\xadminlte\auth\login.html:54
+msgid "Username"
+msgstr ""
+
+#: .\templates\xadminlte\auth\login.html:66
+msgid "Password"
+msgstr ""
+
+#: .\templates\xadminlte\auth\login.html:77
+msgid "log in"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\complete.html:11
+#: .\templates\xadminlte\auth\password_reset\done.html:11
+msgid "Password reset successful"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\complete.html:14
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\complete.html:15
+msgid "Log in"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\confirm.html:12
+msgid "Enter new password"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\confirm.html:17
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\confirm.html:19
+msgid "Change my password"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\confirm.html:24
+msgid "Password reset unsuccessful"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\confirm.html:27
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\done.html:14
+msgid ""
+"We've e-mailed you instructions for setting your password to the e-mail "
+"address you submitted. You should be receiving it shortly."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email.html:2
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\email_subject.html:2
+#, python-format
+msgid "Password reset on %(site_name)s"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\form.html:13
+msgid "Password reset"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\form.html:17
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll e-mail "
+"instructions for setting a new one."
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\form.html:25
+msgid "E-mail address:"
+msgstr ""
+
+#: .\templates\xadminlte\auth\password_reset\form.html:33
+msgid "Reset my password"
+msgstr ""
+
+#: .\templates\xadminlte\auth\user\add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+
+#: .\templates\xadminlte\auth\user\add_form.html:8
+msgid "Enter a username and password."
+msgstr ""
+
+#: .\templates\xadminlte\auth\user\change_password.html:31
+#: .\templates\xadminlte\views\batch_change_form.html:24
+#: .\templates\xadminlte\views\form.html:22
+#: .\templates\xadminlte\views\form_action.html:18
+#: .\templates\xadminlte\views\model_form.html:26
+#: .\templates\xadminlte\views\model_form_action.html:27
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\templates\xadminlte\auth\user\change_password.html:38
+msgid "Enter your new password."
+msgstr ""
+
+#: .\templates\xadminlte\auth\user\change_password.html:40
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: .\templates\xadminlte\blocks\comm.top.theme.html:4
+msgid "Themes"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\comm.top.topnav.html:8
+#: .\templates\xadminlte\filters\char.html:7
+#: .\templates\xadminlte\filters\common.html:7
+#: .\templates\xadminlte\filters\fk_search.html:7
+#: .\templates\xadminlte\filters\fk_search.html:14
+#: .\templates\xadminlte\filters\fk_search_box.html:16
+#: .\templates\xadminlte\filters\number.html:7
+msgid "Search"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\comm.top.topnav.html:22
+msgid "Add"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\grid.results_bottom.actions.html:36
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\grid.results_bottom.actions.html:37
+#, python-format
+msgid ""
+"Select all %(total_count)s\n"
+"                    %(model_name)s"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\grid.results_bottom.actions.html:40
+msgid "Clear selection"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:9
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:26
+msgid "Prev step"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:13
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:29
+msgid "Next step"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:15
+#: .\templates\xadminlte\blocks\model_form.submit_line.wizard.html:31
+#: .\templates\xadminlte\includes\submit_line.html:10
+#: .\templates\xadminlte\includes\submit_line.html:13
+#: .\templates\xadminlte\views\form.html:39
+msgid "Save"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:7
+msgid "Clean Bookmarks"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:18
+msgid "No Bookmarks"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:22
+msgid "New Bookmark"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:26
+msgid "Save current page as Bookmark"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:32
+msgid "Enter bookmark title"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:33
+msgid "Waiting"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.bookmarks.html:33
+msgid "Save Bookmark"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.filters.html:4
+msgid "Filters"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.nav_menu.filters.html:8
+msgid "Clean Filters"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.results_top.charts.html:4
+msgid "Charts"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:4
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:8
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:19
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:47
+msgid "Export"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:26
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:29
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:32
+msgid "Export with table header."
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:35
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:38
+msgid "Export with format."
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:42
+msgid "Export all data."
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.exports.html:46
+#: .\templates\xadminlte\widgets\base.html:41
+msgid "Close"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.layouts.html:4
+msgid "Layout"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.refresh.html:8
+msgid "Clean Refresh"
+msgstr ""
+
+#: .\templates\xadminlte\blocks\model_list.top_toolbar.refresh.html:14
+#, python-format
+msgid "Every %(t)s seconds"
+msgstr ""
+
+#: .\templates\xadminlte\edit_inline\blank.html:5 .\views\general\edit.py:178
+msgid "Null"
+msgstr ""
+
+#: .\templates\xadminlte\filters\char.html:13
+#: .\templates\xadminlte\filters\char_box.html:14
+#: .\templates\xadminlte\filters\common.html:17
+#: .\templates\xadminlte\filters\common.html:22
+msgid "Enter"
+msgstr ""
+
+#: .\templates\xadminlte\filters\common.html:26
+#: .\templates\xadminlte\filters\date.html:29
+#: .\templates\xadminlte\filters\date.html:46
+#: .\templates\xadminlte\filters\date.html:54
+#: .\templates\xadminlte\filters\date_base.html:21
+#: .\templates\xadminlte\filters\date_base.html:29
+#: .\templates\xadminlte\filters\fk_search.html:16
+#: .\templates\xadminlte\filters\number.html:37
+msgid "Apply"
+msgstr ""
+
+#: .\templates\xadminlte\filters\common.html:28
+#: .\templates\xadminlte\filters\fk_search.html:18
+#: .\templates\xadminlte\filters\number.html:39
+msgid "Clean"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:10
+#: .\templates\xadminlte\filters\date.html:13
+msgid "Choice Date"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:18
+msgid "YY"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:19
+msgid "year"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:22
+msgid "MM"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:23
+msgid "month"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:26
+msgid "DD"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:27
+msgid "day"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:34
+#: .\templates\xadminlte\filters\date_base.html:9
+msgid "Date Range"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:41
+#: .\templates\xadminlte\filters\date_base.html:16
+msgid "Select Date"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:42
+#: .\templates\xadminlte\filters\date_base.html:17
+msgid "From"
+msgstr ""
+
+#: .\templates\xadminlte\filters\date.html:44
+#: .\templates\xadminlte\filters\date_base.html:19
+msgid "To"
+msgstr ""
+
+#: .\templates\xadminlte\filters\number.html:17
+#: .\templates\xadminlte\filters\number.html:25
+#: .\templates\xadminlte\filters\number.html:33
+msgid "Enter Number"
+msgstr ""
+
+#: .\templates\xadminlte\filters\rel.html:3
+#, python-format
+msgid " By %(filter_title)s "
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:4
+msgid "Available"
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:12
+msgid "Click to choose all at once."
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:12
+msgid "Choose all"
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:16
+msgid "Choose"
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:19
+#: .\templates\xadminlte\widgets\base.html:40
+msgid "Remove"
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:23
+msgid "Chosen"
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:27
+msgid "Click to remove all chosen at once."
+msgstr ""
+
+#: .\templates\xadminlte\forms\transfer.html:27
+msgid "Remove all"
+msgstr ""
+
+#: .\templates\xadminlte\includes\head_nav.html:30
+#: .\templates\xadminlte\includes\head_nav_ext.html:35
+#: .\templates\xadminlte\main.html:119
+msgid "Log out"
+msgstr ""
+
+#: .\templates\xadminlte\includes\pagination.html:9
+msgid "Show all"
+msgstr ""
+
+#: .\templates\xadminlte\includes\submit_line.html:10
+#: .\templates\xadminlte\includes\submit_line.html:13
+#: .\templates\xadminlte\views\form.html:39
+#: .\templates\xadminlte\views\form_action.html:30
+#: .\templates\xadminlte\views\model_form_action.html:46
+msgid "Saving.."
+msgstr ""
+
+#: .\templates\xadminlte\includes\submit_line.html:17
+msgid "Save as new"
+msgstr ""
+
+#: .\templates\xadminlte\includes\submit_line.html:18
+msgid "Save and add another"
+msgstr ""
+
+#: .\templates\xadminlte\includes\submit_line.html:19
+#: .\templates\xadminlte\views\form.html:40
+msgid "Save and continue editing"
+msgstr ""
+
+#: .\templates\xadminlte\includes\submit_line.html:24
+#: .\templates\xadminlte\views\model_detail.html:28
+#: .\templates\xadminlte\views\model_list_rel.html:14
+#: .\views\general\delete.py:124
+msgid "Delete"
+msgstr ""
+
+#: .\templates\xadminlte\views\app_index.html:13
+#, python-format
+msgid "%(name)s"
+msgstr ""
+
+#: .\templates\xadminlte\views\batch_change_form.html:11
+msgid "Change multiple objects"
+msgstr ""
+
+#: .\templates\xadminlte\views\batch_change_form.html:16
+#, python-format
+msgid "Change one %(objects_name)s"
+msgid_plural "Batch change %(counter)s %(objects_name)s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\templates\xadminlte\views\batch_change_form.html:38
+msgid "Change Multiple"
+msgstr ""
+
+#: .\templates\xadminlte\views\dashboard.html:15
+#: .\templates\xadminlte\views\dashboard.html:22
+#: .\templates\xadminlte\views\dashboard.html:23
+msgid "Add Widget"
+msgstr ""
+
+#: .\templates\xadminlte\views\grid.html:36
+#: .\templates\xadminlte\views\model_list_rel.html:27
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\templates\xadminlte\views\invalid_setup.html:13
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+
+#: .\templates\xadminlte\views\logged_out.html:16
+msgid "Logout Success"
+msgstr ""
+
+#: .\templates\xadminlte\views\logged_out.html:17
+msgid "Thanks for spending some quality time with the Web site today."
+msgstr ""
+
+#: .\templates\xadminlte\views\logged_out.html:19
+msgid "Close Window"
+msgstr ""
+
+#: .\templates\xadminlte\views\logged_out.html:20
+msgid "Log in again"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_dashboard.html:26
+#: .\templates\xadminlte\views\model_detail.html:25
+#: .\templates\xadminlte\views\model_list_rel.html:11
+msgid "Edit"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_confirm.html:11
+#, python-format
+msgid ""
+"Deleting the %(verbose_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_confirm.html:19
+#, python-format
+msgid ""
+"Deleting the %(verbose_name)s '%(escaped_object)s' would require deleting "
+"the following protected related objects:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_confirm.html:27
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(verbose_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_confirm.html:34
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:49
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_confirm.html:35
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:50
+#: .\templates\xadminlte\views\model_form_action.html:48
+msgid "Cancel"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:10
+msgid "Delete multiple objects"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:18
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_delete_selected_confirm.html:34
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:26
+msgid "Diff"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:27
+#: .\templates\xadminlte\views\recover_list.html:25
+msgid "Date/time"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:28
+msgid "User"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:29
+msgid "Comment"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:54
+msgid "Diff Select Versions"
+msgstr ""
+
+#: .\templates\xadminlte\views\model_history.html:58
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: .\templates\xadminlte\views\recover_form.html:20
+msgid "Press the recover button below to recover this version of the object."
+msgstr ""
+
+#: .\templates\xadminlte\views\recover_list.html:19
+msgid ""
+"Choose a date from the list below to recover a deleted version of an object."
+msgstr ""
+
+#: .\templates\xadminlte\views\recover_list.html:39
+msgid "There are no deleted objects to recover."
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:12
+#: .\templates\xadminlte\views\revision_diff.html:17
+#, python-format
+msgid "Diff %(verbose_name)s"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:25
+msgid "Field"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:26
+msgid "Version A"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:27
+msgid "Version B"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:39
+msgid "Revert to"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_diff.html:40
+#: .\templates\xadminlte\views\revision_diff.html:41
+msgid "Revert"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_form.html:16
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_form.html:21
+msgid "Press the revert button below to revert to this version of the object."
+msgstr ""
+
+#: .\templates\xadminlte\views\revision_form.html:27
+msgid "Revert this revision"
+msgstr ""
+
+#: .\templates\xadminlte\widgets\addform.html:14
+msgid "Success"
+msgstr ""
+
+#: .\templates\xadminlte\widgets\addform.html:14
+msgid "Add success, click <a id='change-link'>edit</a> to edit."
+msgstr ""
+
+#: .\templates\xadminlte\widgets\addform.html:17
+msgid "Quick Add"
+msgstr ""
+
+#: .\templates\xadminlte\widgets\base.html:31
+msgid "Widget Options"
+msgstr ""
+
+#: .\templates\xadminlte\widgets\base.html:42
+msgid "Save changes"
+msgstr ""
+
+#: .\templates\xadminlte\widgets\list.html:33
+msgid "Empty list"
+msgstr ""
+
+#: .\utils\filters.py:206 .\utils\filters.py:292 .\utils\filters.py:322
+#: .\utils\filters.py:541 .\utils\filters.py:651 .\utils\filters.py:691
+msgid "All"
+msgstr ""
+
+#: .\utils\filters.py:266
+msgid "全部"
+msgstr ""
+
+#: .\utils\filters.py:267 .\utils\filters.py:405 .\widgets\__init__.py:56
+msgid "Today"
+msgstr ""
+
+#: .\utils\filters.py:292
+msgid "Yes"
+msgstr ""
+
+#: .\utils\filters.py:292
+msgid "No"
+msgstr ""
+
+#: .\utils\filters.py:306
+msgid "Unknown"
+msgstr ""
+
+#: .\utils\filters.py:398
+msgid "Any date"
+msgstr ""
+
+#: .\utils\filters.py:399
+msgid "Has date"
+msgstr ""
+
+#: .\utils\filters.py:402
+msgid "Has no date"
+msgstr ""
+
+#: .\utils\filters.py:409
+msgid "Past 7 days"
+msgstr ""
+
+#: .\utils\filters.py:413
+msgid "This month"
+msgstr ""
+
+#: .\utils\filters.py:417
+msgid "This year"
+msgstr ""
+
+#: .\views\dashboard.py:25
+msgid "Dashboard"
+msgstr ""
+
+#: .\views\dashboard.py:192 .\views\dashboard.py:229
+#, python-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: .\views\general\__init__.py:534
+#, fuzzy
+msgid "Change Password"
+msgstr "Changed Password"
+
+#: .\views\general\__init__.py:736
+msgid "Database error"
+msgstr ""
+
+#: .\views\general\__init__.py:1029 .\views\general\__init__.py:1308
+#: .\views\general\detail.py:209 .\views\general\edit.py:308
+msgid "Other Fields"
+msgstr ""
+
+#: .\views\general\__init__.py:1141
+msgid "操作成功"
+msgstr ""
+
+#: .\views\general\delete.py:101 .\views\general\delete.py:211
+#, python-format
+msgid "Cannot delete %(name)s"
+msgstr ""
+
+#: .\views\general\delete.py:104 .\views\general\delete.py:213
+msgid "Are you sure?"
+msgstr ""
+
+#: .\views\general\delete.py:136
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr ""
+
+#: .\views\general\delete.py:159
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: .\views\general\delete.py:180
+#, python-format
+msgid "Successfully deleted %(count)d %(items)s."
+msgstr ""
+
+#: .\views\general\detail.py:298
+#, python-format
+msgid "%s 详细"
+msgstr ""
+
+#: .\views\general\edit.py:598
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was added successfully."
+msgstr ""
+
+#: .\views\general\edit.py:607 .\views\general\edit.py:751
+msgid "You may edit it again below."
+msgstr ""
+
+#: .\views\general\edit.py:612 .\views\general\edit.py:755
+#, python-format
+msgid "You may add another %s below."
+msgstr ""
+
+#: .\views\general\edit.py:699
+#, python-format
+msgid "Change %s"
+msgstr ""
+
+#: .\views\general\edit.py:745
+#, python-format
+msgid "The %(name)s \"%(obj)s\" was changed successfully."
+msgstr ""
+
+#: .\views\general\edit.py:812
+#, fuzzy, python-format
+msgid "Changed %s."
+msgstr "Changed Password"
+
+#: .\views\general\edit.py:812 .\views\general\edit.py:822
+msgid "and"
+msgstr ""
+
+#: .\views\general\edit.py:817
+#, python-format
+msgid "Added %(name)s \"%(object)s\"."
+msgstr ""
+
+#: .\views\general\edit.py:821
+#, python-format
+msgid "Changed %(list)s for %(name)s \"%(object)s\"."
+msgstr ""
+
+#: .\views\general\edit.py:826
+#, python-format
+msgid "Deleted %(name)s \"%(object)s\"."
+msgstr ""
+
+#: .\views\general\edit.py:830
+msgid "No fields changed."
+msgstr ""
+
+#: .\views\general\list.py:233
+#, python-format
+msgid "%s 列表"
+msgstr ""
+
+#: .\views\general\list.py:350
+msgid "Sort ASC"
+msgstr ""
+
+#: .\views\general\list.py:351
+msgid "Sort DESC"
+msgstr ""
+
+#: .\views\general\list.py:355
+msgid "Cancel Sort"
+msgstr ""
+
+#: .\views\website.py:22 .\views\website.py:30
+msgid "Main Dashboard"
+msgstr ""
+
+#: .\views\website.py:79
+msgid "Please log in again, because your session has expired."
+msgstr ""
+
+#: .\views\website.py:84
+msgid ""
+"Please enter the correct username and password for a staff account. Note "
+"that both fields are case-sensitive."
+msgstr ""
+
+#: .\views\website.py:103
+#, python-format
+msgid "Your e-mail address is not your username. Try '%s' instead."
+msgstr ""
+
+#: .\views\website.py:114
+msgid "登陆"
+msgstr ""
+
+#: .\widgets\__init__.py:78
+msgid "Now"
+msgstr ""
+
+#: .\widgets\dashwidget.py:122
+msgid "Widget ID"
+msgstr ""
+
+#: .\widgets\dashwidget.py:123
+msgid "Widget Title"
+msgstr ""
+
+#: .\widgets\dashwidget.py:211
+msgid "Html Content Widget, can write any html content in widget."
+msgstr ""
+
+#: .\widgets\dashwidget.py:214
+msgid "Html Content"
+msgstr ""
+
+#: .\widgets\dashwidget.py:232
+msgid "Target Model"
+msgstr ""
+
+#: .\widgets\dashwidget.py:301
+msgid "Quick button Widget, quickly open any page."
+msgstr ""
+
+#: .\widgets\dashwidget.py:303
+msgid "Quick Buttons"
+msgstr ""
+
+#: .\widgets\dashwidget.py:351
+msgid "Any Objects list Widget."
+msgstr ""
+
+#: .\widgets\dashwidget.py:394
+msgid "Add any model object Widget."
+msgstr ""
+
+#: .\wizard\legacy.py:159
+msgid ""
+"We apologize, but your form has expired. Please continue filling out the "
+"form from this page."
+msgstr ""

@@ -1,0 +1,28 @@
+<div class="box {% if not legend %}box-solid{% endif %} {% block box_class %}{% endblock box_class %}"
+        {% block box_attrs %}{% endblock box_attrs %}>
+    {% block box_header %}
+        {% if legend or widget_title or inline_style %}
+            <div class="box-header">
+                <h3 class="panel-title">{% block box_title %}{% endblock box_title %}</h3>
+                <div class="box-tools pull-right">
+                    {% block box_tools %}{% endblock box_tools %}
+                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-chevron-up chevron"></i>
+                    </button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown">
+                        {% if widget.dashboard.widget_customiz %}
+                            <i class='icon fa fa-wrench pull-right' data-toggle="modal"
+                               data-target="#{{ widget_id }}-opts-form"></i>
+                        {% endif %}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+    {% endblock box_header %}
+    <div class="box-body {% block box_content_class %}{% endblock box_content_class %}"
+            {% block box_content_attrs %}{% endblock box_content_attrs %}>
+        {% block box_content %}{% endblock box_content %}
+    </div>
+    {% block box_extra %}{% endblock box_extra %}
+</div>
